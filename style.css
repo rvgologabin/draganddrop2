@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: cornsilk;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 25vh;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+#top-container, #bottom-container {
+    margin-bottom: 20px;
+    background: antiquewhite;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 100px;
+    position: relative;
+}
+.ice-cream-bowl, .toppings-bowl {
+    position: relative;
+}
+.ice-cream, .toppings {
+    cursor: pointer;
+    position: absolute;
+}
+#bowl-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#bowl img {
+    width: 350px;
+    height: auto;
+}
+.in-bowl {
+    border: 2px solid green;
+}
+
+box {
+    background: blue;
+    padding: 50px
+}
